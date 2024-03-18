@@ -12,7 +12,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+    flex-direction: column;
+    
 }
 .wrapper>main>section>.show-block>.items{
     border : 1px solid;
