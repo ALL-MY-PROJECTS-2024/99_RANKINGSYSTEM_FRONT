@@ -88,24 +88,26 @@ ul{
     align-items: center;
 }
 .wrapper>.top-header>.center>ul>li{
-    min-width:100px;
+    width:70px;
    
+    text-align:right;;
     position:relative;
-    text-align:right;
+    
     margin:0px;
-    padding : 0px;    
-    /* border : 1px solid; */
-    position:relative;
+    padding : 0px 10;    
+    
+    
+   
+    
 }
 
 .wrapper>.top-header>.center>ul>li:last-child{
-    /* min-width:65px; */
-    height:100%;
-    /* border : 1px solid; */
+ 
+   
+  
+    width : 50px;
     
-    display:flex;
-    justify-content: right;
-    align-items: center;
+  
 }
 .wrapper>.top-header>.center>ul>li .material-symbols-outlined{
     font-size:1.2rem;
@@ -113,7 +115,7 @@ ul{
     /* border : 1px solid; */
 }
 
-
+/* 
 .wrapper>.top-header>.center>ul>li::after{
     content:"|";
     position:absolute;
@@ -125,6 +127,8 @@ ul{
 .wrapper>.top-header>.center>ul>li:last-child:after{
     content:"";
 }
+ */
+
 .wrapper>.top-header>.right{
     width : 180px;
     height:80px;
@@ -210,6 +214,9 @@ ul{
 }
 .wrapper>nav>.right>ul.mainmenu>li>ul.submenu{
     border : 1px solid;
+
+    position:relative;
+    
 }
 .wrapper>nav>.right>ul.mainmenu>li>ul.submenu>li{
     line-height: 35px;
