@@ -17,8 +17,8 @@ main>section>div{
     align-items: center;
     padding : 20px;
 
-    box-shadow: 5px 5px 5px lightgray;
-    border-radius: 15px;
+    border : 1px solid lightgray;
+    border-radius: 5px;
 
     position:relative;
     left:0;right:0;
@@ -36,6 +36,7 @@ main>section>div .item.submenu{
     flex-direction: row;
     height:10px;
 }
+/*
 main>section>div .item.image{
     background-image: url("/assets/top-header-left.jpg");
     background-repeat: no-repeat;
@@ -43,6 +44,7 @@ main>section>div .item.image{
     height:35px;
     text-align: center;
 }
+*/
 main>section>div .item.title{
     text-align: center;
 }
