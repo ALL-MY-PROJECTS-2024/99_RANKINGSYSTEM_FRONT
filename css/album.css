@@ -12,6 +12,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 }
 .wrapper>main>section>.show-block>.items{
     border : 1px solid;
@@ -20,18 +21,27 @@
     text-align:center;
     padding : 25px;
 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .wrapper>main>section>.show-block>.items>.item{
     width : 250px;
-    height : 200px;
+    
     border : 1px solid;
     margin : 10px;
     padding : 5px;
 }
+.wrapper>main>section>.show-block>.items>.item>*{
+    margin-bottom : 2px;
+}
 .wrapper>main>section>.show-block>.items>.item>.title{
     font-size : .8rem;
     padding : 2px;
+    border : 1px solid;
 }
 
 .wrapper>main>section>.show-block>.items>.item>.image-block{
@@ -43,6 +53,13 @@
     width :100%;
     height : 100%;
    
-    object-fit: contain;
+    object-fit: cover;
 
+}
+
+.wrapper>main>section>.show-block>.items>.item>.contents{
+    display:flex;
+    justify-content: space-between;
+    align-items : center;
+    font-size : .8rem;
 }
