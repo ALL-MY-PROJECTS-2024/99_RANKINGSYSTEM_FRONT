@@ -26,12 +26,13 @@
 |2024-04-01|FE|index.html|main태그영역 기본레이아웃|OPTIONAL|FALSE|
 |2024-04-01|FE|전체|기본 해상도 16:9로 가로세로 크기 설정|OPTIONAL|FALSE|
 |2024-04-01|FE|전체|각페이지별 모바일 적용 코드 구현|IMPORTANT|FALSE|
-|2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
-|2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
+|2024-04-01|FE|PATH|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|IMPORTANT|FALSE|
+|-|-|-|-|-|-|
 |2024-04-01|BE|PATH|회원가입|MAIN| FASLE
 |2024-04-01|BE|PATH|로그인/로그아웃|MAIN| FASLE
 |2024-04-01|BE|PATH|REMEMBER_ME|MAIN| FASLE
 |2024-04-01|BE|PATH|REMEMBER_ME|MAIN| FASLE
+|2024-04-01|BE|PATH|아이디/패스워드 복구|MAIN| FASLE
 |2024-04-01|BE|PATH|이미지 파일 업로드|MAIN| FASLE
 |2024-04-01|BE|PATH|이미지 전체 조회|MAIN| FASLE
 |2024-04-01|BE|PATH|이미지 키워드(좋아요/조회순) 조회|MAIN| FASLE
