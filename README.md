@@ -16,7 +16,17 @@
 |테스트1|테스트2|테스트3|
 
 
+### TEAM
+---
+|NAME|ROLE|GITHUBLINK|
+|------|---|---|
+|홍길동|조장-BACKEND/CONTROLLER | github://~~~
+|강지영|조원-FRONTEND|테스트3|
+|조은파|조원-FRONTEND|테스트3|
 
+
+### USE SKILLS
+---
 
 ### CDN LINK
 ---
