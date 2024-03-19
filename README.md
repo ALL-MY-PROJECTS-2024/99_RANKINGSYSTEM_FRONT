@@ -3,8 +3,10 @@
 ### RULE
 ---
 - GITHUB COMMIT MESSAGE
-  - "V1.2.3 name" 
-  - 1 : Major Version(페이지 추가/구조/기본스타일링) / 2 : Miner Version(기능추가) / 3 : Patch(기존기능/스타일 수정
+  - "V1.2.3 JUNGWOOGYUN ADDED STYLE" 
+    - 1 : Major Version(ex.페이지 추가/구조/기본스타일링) 
+    - 2 : Miner Version(ex.기능추가)
+    - 3 : Patch(ex.기존기능/스타일 수정
 
 ### HISTORY
 ---
