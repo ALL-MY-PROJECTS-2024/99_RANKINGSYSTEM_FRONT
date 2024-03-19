@@ -28,7 +28,7 @@
 |2024-04-01|FE|전체|각페이지별 모바일 적용 코드 구현|**IMPORTANT**|FALSE|
 |2024-04-01|FE|PATH|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|**IMPORTANT**|FALSE|
 |2024-04-01|FE|PATH|로고 선정 후 수정|OPTIONAL|FALSE|
-|-|-|-|-|-|-|
+|업|데|이|트|예|정|
 |2024-04-01|BE|PATH|회원가입|MAIN| FASLE
 |2024-04-01|BE|PATH|로그인/로그아웃|MAIN| FASLE
 |2024-04-01|BE|PATH|REMEMBER_ME|MAIN| FASLE
