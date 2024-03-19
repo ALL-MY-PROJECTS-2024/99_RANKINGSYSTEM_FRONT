@@ -23,9 +23,9 @@
 ---
 |DATE|CATEGORY|PATH|CONTENT|LEVEL|ISSUCCEED|
 |----------|--|----|-----|---|---|
-|2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
-|2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
-|2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
+|2024-04-01|FE|index.html|main태그영역 기본레이아웃|OPTIONAL|FALSE|
+|2024-04-01|FE|전체|기본 해상도 16:9로 가로세로 크기 설정|OPTIONAL|FALSE|
+|2024-04-01|FE|전체|각페이지별 모바일 적용 코드 구현|IMPORTANT|FALSE|
 |2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
 |2024-04-01|FE|PATH|테스트2|테스트3|테스트4|
 |2024-04-01|BE|PATH|회원가입|MAIN| FASLE
