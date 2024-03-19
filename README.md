@@ -1,5 +1,5 @@
 # RANKINGSYSTEM_FN
-
+[이동-조은파 Readme.Md](./[조원]-강지영.md) | [이동-강지영 Readme.md](./[조원]-강지영.md)
 ### RULE
 ---
 - GITHUB COMMIT MESSAGE
