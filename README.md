@@ -37,9 +37,6 @@
 |2024-04-01|BE|PATH|이미지 키워드(좋아요/조회순) 조회|MAIN| FASLE
 |2024-04-01|BE|PATH|이미지 랭킹 조회|MAIN| FASLE
 
-|2024-04-01|BE|PATH|이미지게시판구현/랭킹시스템구현/기본인증작업구현|MAIN| FASLE
-
-
 ### TEAM
 ---
 |NAME|ROLE|GITHUBLINK|
