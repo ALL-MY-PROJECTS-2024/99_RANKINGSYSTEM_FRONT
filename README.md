@@ -8,11 +8,11 @@
 
 ### HISTORY
 ---
-|VERSION|DATE|CATEGORY|DESCRIPTION|
+|VERSION|DATE|CATEGORY|DESCRIPTION|LINK|
 |---|------|---|---|
-|V0.0.0|2024-03-19|INIT|기본 FN 프로젝트 초기화|
-|V0.0.1|테스트1|테스트2|테스트3|
-|V0.0.2|테스트1|테스트2|테스트3|
+|V0.0.0|2024-03-19|INIT|기본 FN 프로젝트 초기화||
+|V0.0.1|테스트1|테스트2|테스트3||
+|V0.0.2|테스트1|테스트2|테스트3||
 
 ### PLAN
 ---
