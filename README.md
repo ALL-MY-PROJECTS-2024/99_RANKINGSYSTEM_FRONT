@@ -26,6 +26,7 @@
 |2024-04-01|FE|index.html|main태그영역 기본레이아웃|OPTIONAL|FALSE|
 |2024-04-01|FE|전체|기본 해상도 16:9로 가로세로 크기 설정|OPTIONAL|FALSE|
 |2024-04-01|FE|전체|각페이지별 모바일 적용 코드 구현|**IMPORTANT**|FALSE|
+|2024-04-01|FE|/user/album/main.html|표시 이미지(.item)블럭단위 기본크기 설정|**IMPORTANT**|FALSE|
 |2024-04-01|FE|/user/album/main.html|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|**IMPORTANT**|FALSE|
 |2024-04-01|FE|전체|로고 선정 후 수정|OPTIONAL|FALSE|
 |-|-|-|-|-|-|
