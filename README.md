@@ -78,8 +78,8 @@ SPRING BOOT DEPENDENCIES
 ### FILE TREE
 ---
 
-- ### HTML
-- ----
+#### HTML
+----
 - template.html
 - index.html
 - login.html
@@ -88,7 +88,8 @@ SPRING BOOT DEPENDENCIES
   - /album
     - add.html
     - main.html
-## CSS
+
+#### CSS
 ---
 - /css
   - common.css
@@ -107,7 +108,7 @@ SPRING BOOT DEPENDENCIES
     - /bookmark
       - main.css 
 
-##### JS
+#### JS
 ---
 - /js
   - common.js
