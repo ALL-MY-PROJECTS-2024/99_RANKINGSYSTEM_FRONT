@@ -80,23 +80,42 @@ SPRING BOOT DEPENDENCIES
 
 - ### HTML
 - ----
-
+- template.html
 - index.html
-  - a
-  - b
-  - c
-
+- login.html
+- /user
+  - myinfo.html
+  - /album
+    - add.html
+    - main.html
 ## CSS
 ---
-- common.css
-  - a
-  - b
-  - c
+- /css
+  - common.css
+  - login.css
+  - /mobile
+    - /user
+      - /album
+        - add.css
+        - main.css
+      - /bookmark
+        - main.css  
+  - /user
+    - /album
+      - add.css
+      - main.css
+    - /bookmark
+      - main.css 
 
 ##### JS
 ---
-- common.js
-  - 
+- /js
+  - common.js
+  - /user
+    - /album
+      - main.js
+    - /bookmark
+      - main.js
 
   
 
