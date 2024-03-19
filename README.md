@@ -1,12 +1,18 @@
 # RANKINGSYSTEM_FN
 
+### RULE
+---
+- GITHUB COMMIT MESSAGE
+  - "V1.2.3 name" ( 1 : Major Version(페이지 추가/구조/기본스타일링) / 2 : Miner Version(기능추가) / 3 : Patch(기존기능/스타일 수정) 
+  - 
+
 ### HISTORY
 ---
 |VERSION|DATE|CATEGORY|DESCRIPTION|
 |---|------|---|---|
-|2024-03-19|INIT|기본 FN 프로젝트 초기화|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|V0.0.0|2024-03-19|INIT|기본 FN 프로젝트 초기화|
+|V0.0.1|테스트1|테스트2|테스트3|
+|V0.0.2|테스트1|테스트2|테스트3|
 
 ### PLAN
 ---
