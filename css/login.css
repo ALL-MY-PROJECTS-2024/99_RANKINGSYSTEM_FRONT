@@ -2,7 +2,12 @@
     border : 0px;
 }
 
-main>section{}
+main>section{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
 main>section>div{
 
@@ -10,7 +15,7 @@ main>section>div{
     width:400px;
    
     /* border : 1px solid; */
-    margin:0 auto;
+    margin:100px     auto;
 
     display:flex;
     justify-content: center;
@@ -20,11 +25,10 @@ main>section>div{
     border : 1px solid lightgray;
     border-radius: 5px;
 
-    position:relative;
-    left:0;right:0;
-    top:0;bottom:0;
-    margin : auto;
+
+
 }
+
 main>section>div>form{
     width:100%;
 }

@@ -107,6 +107,7 @@
 
     <main  class="container-xxl">
 
+        <!-- LEFT -->
         <section class="product_img_block">
             <div class="product_img">
                 <div class="upload-box">
@@ -116,60 +117,46 @@
 
             <div class="preview_img_block">
                 <label>PREVIEW</label>
-                <div id="preview"></div>
+                <div id="preview">
+
+                </div>
             </div>
         </section>
 
         <section class="product_info_block">
             <form  onsubmit="return false" name="imageform" >
                 <div>
-                    <label>SELLER</label>
-                    <input name="seller" class="form-control" placeholder="판매자 계정명" required>
+                    <label>USER : </label>
+                    <input name="username" placeholder="example@example.com"  class="form-control" placeholder="판매자 계정명" required readonly>
                 </div>
                 <div>
-                    <label>PRODUCT NAME</label>
+                    <label>TITLE : </label>
                     <input name="productname" class="form-control" placeholder="제품명" required>
                 </div>
                 <div>
-                    <label>CATEGORY</label>
-                    <select name="category"  class="form-select">
-                        <option value="00" selected>기타</option>
-                        <option value="01">의류</option>
-                        <option value="02">식품</option>
-                        <option value="03">가전</option>
-                        <option value="04">주방</option>
-                        <option value="05">스포츠</option>
+                    <label>MAIN_CATEGORY : </label>
+                    <select name="main_category"  class="form-select">
+                        <option value="image" selected>IMAGE</option>
+                        <option value="music">MUSIC</option>
                     </select>
-
                 </div>
                 <div>
-                    <label>BRANDNAME</label>
-                    <input name="brandname" class="form-control" placeholder="" required>
+                    <label>SUB_CATEGORY : </label>
+                    <select name="sub_category"  class="form-select">
+                        <option value="01" selected>01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                    </select>
                 </div>
                 <div>
-                    <label>PRICE</label>
-                    <input name="price" class="form-control" placeholder="" required>
-                </div>
-                <div>
-                    <label>ITEMDETAILS</label>
+                    <label>DESCRIPTION : </label>
                     <textarea name="itemdetals" class="form-control" required></textarea>
                 </div>
                 <div style="display:flex;justify-content: space-between;">
-                    <div style="width:120px;">
-                        <label>AMOUNT</label>
-                        <input  type="number" min="1" max="100" step="1" value="1" name="amount" class="form-control w-100" placeholder="" required>
-                    </div>
-                    <div style="width:120px;">
-                        <label>SIZE</label>
-                        <select name="size"  class="form-select w-100" >
-                            <option value="none" selected>-</option>
-                            <option value="sm" >SM</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
 
-                        </select>
-                    </div>
                 </div>
                 <div>
                     <button  class="btn btn-primary add_product_btn w-100">등록</button>
@@ -184,6 +171,45 @@
     </footer>
 </div>
 
+
+<script>
+    const uploadBoxEl = document.querySelector('.upload-box');
+    uploadBoxEl.addEventListener('dragover',function(event){
+        console.log('dragover')
+        event.preventDefault();
+
+    });
+    uploadBoxEl.addEventListener('dragleave',function(event){
+        console.log('dragleave')
+        event.preventDefault();
+
+    });
+    uploadBoxEl.addEventListener('drop',function(event){
+
+    console.log('uploadBoxEl drop..',event.dataTransfer.files[0]);
+    const files =event.dataTransfer.files;
+    if(files[0].type.startsWith("image/")){
+
+        const previewEl = document.querySelector('.preview_img_block #preview');
+        //
+        let imageEl = document.createElement('img');
+        imageEl.setAttribute('style','width:50px;height:50px;border:1px solid;')
+        imageEl.src=URL.createObjectURL(files[0]);
+        //
+        var reader = new FileReader();
+        reader.readAsDataURL(files[0]);
+        reader.onload = function(e){
+            imageEl =  e.target.result;
+        }
+        //
+        previewEl.appendChild(imageEl);
+        console.log("reader's result!", imageEl);
+    }
+    event.preventDefault();
+});
+
+
+</script>
 
 </body>
 </html>
