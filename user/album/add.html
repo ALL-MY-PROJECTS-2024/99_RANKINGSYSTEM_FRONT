@@ -35,114 +35,16 @@
 
     <!-- common.css    -->
     <link rel="stylesheet" href="/css/common.css">
-
-    <!-- /css/album/album_add.css -->
-    <!-- <link rel="stylesheet" href="/css/album/album_add.css"> -->
-
-    <style>
-        .wrapper>main{
-    display:flex;
-   justify-content:center;
-   align-items:start;
-
-}
-.wrapper>main>*{margin :  0px 50px;}
-
-/*          */
-   .product_img{
-        width : 500px;
-        height: 350px;
-        position: relative;
-    }
-    .upload-box {
-      width: 100%;
-      height : 350px;
-      margin: 10px auto;
-      border: 3px dashed lightgray;
-      padding: 10px;
-      position: relative;
-
-
-    }
-    .upload-box::before{
-        content : "이미지를 드래그하세요";
-        display:block;
-        position:absolute;
-        left:0px;
-        top:40px;
-        width : 100%;
-        height : 450px;
-        text-align:center;
-        color:lightgray;
-        margin-top:10px;
-    }
-
-    .plus {
-      height:100%;
-      display:flex;
-      justify-content:center;
-      align-items: center;
-
-      font-size: 7em;
-      color: lightgray;
-      position:relative;
-      top:-5%;
-    }
-
-    .preview_img_block{
-        position:relative;
-        top : 10px;
-
-
-    }
-    #preview {
-        width : 100%;
-        height : 100px;
-        margin: 10px auto;
-        border : 1px dashed lightgray;
-
-        padding: 10px;
-        position: relative;
-        left:0px;
-        top:00px;
-
-        display: flex;
-        justify-content: center;
-        align-items : center;
-        flex-wrap: wrap;
-        overflow: auto;
-
-
-    }
-
-    img {
-        width: 50px;
-        height: 50px;
-        border: 1px solid gray;
-        margin : 2px;
-    }
-
-    .product_info_block{
-        width:300px;
-        height : 300px;
-        position:relivate;
-    }
-    .product_info_block>form>*{
-        margin-bottom:5px;
-    }
-
-    .product_info_block label{
-        margin:5px 0px;
-    }
-    </style>
+    <!-- /css/album/add.css -->
+    <link rel="stylesheet" href="/css/album/add.css">
 
 
     <!-- common.js   -->
     <script src="/js/common.js" defer></script>
+    
     <!-- /js/imageboard/add.js   -->
     <!-- <script src="/js/imageboard/add.js" defer></script> -->
-    <!-- user/logout.js   -->
-    <!-- <script src="/js/user/logout.js" defer></script> -->
+ 
 
 
 </head>
@@ -150,11 +52,58 @@
 
 <div class="wrapper">
 
-    <header>
-        <!-- th:fragment     -->
-        <!-- <div th:replace="fragments/header :: headerFragment" /> -->
+    <div class="top-header layout-5">
+        <div class="left">
+            <a href="/">
+                <span>CH</span><span>AI</span><span>F</span>
+            </a>
+        </div>
+        <div class="center">
+           <ul>
+                <li><span>USER10</span> 님</li>
+                <li><a href="">로그아웃</a></li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">MENU</span>
+                    </a>
+                </li>
+           </ul>
+        </div>
+        <!-- 
+        <div class="right">
+            <a href="/index.html">
+               <img src="assets/top-header-left.jpg" alt=""> 
+            </a>
+        </div>
+         -->
+    </div>
+    <nav class="layout-5">
+        <div class="left">
+            <!-- <img src="" alt=""> -->
+            <span>CH</span><span>AI</span><span>F</span>
+        </div>
+        <div class="right"> 
+           <ul class="mainmenu">
+            <li>
+                <a href="/user/myinfo.html">내정보</a>    
+            </li>
+            <li>
+                <a href="/user/album/myalbum.html">앨범</a>
 
-    </header>
+            </li>
+            <li>
+                <a href="javascript:void(0)">즐겨찾기</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">갤러리</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">그룹</a>
+            </li>
+           </ul>
+
+        </div>
+    </nav>
 
     <main  class="container-xxl">
 
@@ -229,12 +178,12 @@
         </section>
     </main>
     <!--  footer fragment      -->
-    <!-- <div th:replace="fragments/footer :: footerFragment" /> -->
-
+   
+    <footer>
+        
+    </footer>
 </div>
 
-<!-- axios -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </body>
 </html>
