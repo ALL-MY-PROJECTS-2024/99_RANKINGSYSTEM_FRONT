@@ -4,7 +4,7 @@
 ---
 - GITHUB COMMIT MESSAGE
   - git commit -m "[VERSION] [NAME] [DESCRIPTION]"
-    - EX] git commit -m "V1.2.3 JUNGWOOGYUN ADDED STYLE" 
+    - EX ] git commit -m "V1.2.3 JUNGWOOGYUN ADDED STYLE" 
       - 1 : Major Version(ex.페이지 추가/구조/기본스타일링) 
       - 2 : Miner Version(ex.기능추가)
       - 3 : Patch(ex.기존기능/스타일 수정
@@ -28,7 +28,8 @@
 |2024-04-01|FE|전체|각페이지별 모바일 적용 코드 구현|**IMPORTANT**|FALSE|
 |2024-04-01|FE|PATH|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|**IMPORTANT**|FALSE|
 |2024-04-01|FE|PATH|로고 선정 후 수정|OPTIONAL|FALSE|
-|업|데|이|트|예|정|
+|-|-|-|-|-|-|
+|-|-|-|-|-|-|
 |2024-04-01|BE|PATH|회원가입|**IMPORTANT**| FASLE
 |2024-04-01|BE|PATH|로그인/로그아웃|**IMPORTANT**| FASLE
 |2024-04-01|BE|PATH|REMEMBER_ME|OPTIONAL| FASLE
