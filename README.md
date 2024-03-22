@@ -30,6 +30,7 @@
 |2024-04-01|FE|/css/user/album/main.css|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|**IMPORTANT**|FALSE|
 |2024-04-01|FE|/css/common/css|로고 선정 후 수정|OPTIONAL|FALSE|
 
+
 ### TEAM
 ---
 |NAME|ROLE|GITHUBLINK|
