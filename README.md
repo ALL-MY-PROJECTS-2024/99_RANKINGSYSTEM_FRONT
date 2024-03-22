@@ -29,6 +29,16 @@
 |2024-04-01|FE|/css/user/album/main.css|표시 이미지(.item)블럭단위 기본크기 설정|**IMPORTANT**|FALSE|
 |2024-04-01|FE|/css/user/album/main.css|앨범페이지 필터 서브창띄우고 선택(조회순/좋아요 순)|**IMPORTANT**|FALSE|
 |2024-04-01|FE|/css/common/css|로고 선정 후 수정|OPTIONAL|FALSE|
+|-|-|-|-|-|-|
+|-|-|-|-|-|-|
+|2024-04-01|BE|/user/join|회원가입|**IMPORTANT**| FASLE
+|2024-04-01|BE|/login,/logout|로그인/로그아웃|**IMPORTANT**| FASLE
+|2024-04-01|BE|/login|REMEMBER_ME|OPTIONAL| FASLE
+|2024-04-01|BE|/user/reid,/user/repassword|아이디/패스워드 복구|OPTIONAL| FASLE
+|2024-04-01|BE|/user/album/upload|이미지 파일 업로드|**IMPORTANT**| FASLE
+|2024-04-01|BE|/user/album/main|이미지 전체 조회|**IMPORTANT**| FASLE
+|2024-04-01|BE|/user/album/main?keyfield=?&keyword=?|이미지 키워드(좋아요/조회순) 조회|**IMPORTANT**| FASLE
+|2024-04-01|BE|미정|이미지 랭킹 조회|**IMPORTANT**| FASLE
 
 
 ### TEAM
